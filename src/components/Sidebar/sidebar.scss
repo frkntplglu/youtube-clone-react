@@ -1,0 +1,21 @@
+.sidebar{
+    width: 240px;
+    padding-right: 15px;
+    &-menu{
+        border-bottom: 1px solid #383838;
+        margin-bottom: 15px;
+        padding-bottom:15px;
+        &__item{
+            align-items: center;
+            color: #fff;
+            display: flex;
+            font-size: 14px;
+            height: 40px;
+            padding-left: 15px;
+            padding-right: 15px;
+            &:hover,&.active{
+                background: #383838;
+            }
+        }
+    }
+}
