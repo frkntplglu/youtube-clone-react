@@ -1,0 +1,10 @@
+.video-grid{
+    background: #181818;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 40px;
+    padding:16px;
+    width: 100%;
+}
