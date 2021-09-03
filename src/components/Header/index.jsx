@@ -1,9 +1,13 @@
+import './header.scss';
 import React from 'react';
+import Logo from '../Logo';
+import UserMenu from '../UserMenu';
 
 function Header() {
   return (
-    <header>
-      HEADER
+    <header className="header">
+      <Logo />
+      <UserMenu />
     </header>
   );
 }

@@ -1,0 +1,21 @@
+.header{
+    align-items: center;
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    &-user{
+        &__avatar{
+            align-items: center;
+            background: #333;
+            border-radius: 100%;
+            color: #fff;
+            display: flex;
+            font-size: 12px;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+        }
+    }
+}

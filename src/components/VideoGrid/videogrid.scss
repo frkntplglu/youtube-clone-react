@@ -8,3 +8,15 @@
     padding:16px;
     width: 100%;
 }
+
+@media screen and (max-width:1170px){
+    .video-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:960px){
+    .video-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
